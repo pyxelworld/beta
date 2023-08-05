@@ -1,5 +1,7 @@
 body {
   background: #0e0340;
+  font-family: TanNimbus;
+  color: white;
 }
 
 .nav {
@@ -38,4 +40,23 @@ margin-left: auto;
   margin-right: auto;
   border-radius: 40px;
   height: 290px;
+}
+
+@font-face {
+  font-family: 'TanNimbus';
+  src: url('/TANNIMBUS.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.block {
+  display: block;
+}
+
+.center {
+  text-align: center;
+}
+
+.arial {
+  font-family: arial;
 }
